@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="map.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="geoApi.js" type=""></script>
+</script>
+</head>
+<body>
+    <div id="map"></div>
+    <button id="MyPosition">Where am I?</button>
+
+    <div id="filter">
+        <input type="checkbox" id="filter1" class="filterInp" value="TSC">
+        <label for="filter1">Thrift Store Chain</label>
+        <input type="checkbox" id="filter2" class="filterInp" value="LCB">
+        <label for="filter2">Local Business</label>
+        <input type="checkbox" id="filter3" class="filterInp" value="CHA">
+        <label for="filter3">Charity Organization</label>
+    </div>
+
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtK3_qPPJMw6ny4dq91y1PB5WOpIxdHKE&callback=initMap&loading=async"></script>
+</body>
+</html>

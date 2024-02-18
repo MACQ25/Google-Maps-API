@@ -1,0 +1,102 @@
+{
+    "Location1:": {
+        "position": {
+          "lat": 43.23161013302185,
+          "lng": -79.85773489438041
+        },
+        "label": "1",
+        "title": "Value Village",
+        "content": "<div class=\"card\" style=\"width: 18rem;\"><div class=\"card-body\"><h5 class=\"card-title\">Value Village</h5><h6 class=\"card-subtitle mb-2 text-body-secondary\">Thrift Store Chain</h6><p class=\"<card-text\">It’s the thrill of finding “this is exactly what I need,” the “why not?” and “where’d you get that?!” It’s reusing, repurposing, and upcycling, helping save the planet while saving a few bucks.</p><a href=\"#\" class=\"card-link\">Card link</a><a href=\"https://www.valuevillage.ca/\" class=\"card-link\">Site</a></div></div>",
+        "tags" : ["TSC"]
+    }, 
+    "Location2:": {
+      "position": {
+        "lat": 43.22656604611615, 
+        "lng": -79.8818056770953
+      },
+      "label": "2",
+      "title": "The Salvation Army Thrift Store",
+      "content": "<div class=\"card\" style=\"width: 18rem;\"><div class=\"card-body\"><h5 class=\"card-title\">The Salvation Army Thrift Store</h5><h6 class=\"card-subtitle mb-2 text-body-secondary\">Thrift Store Chain, For-profit with Charity Ties</h6><p class=\"card-text\">The Salvation Army Thrift Store, National Recycling Operations (NRO) is part of one of the largest national charities in Canada that gives hope and support to over 2.6 million people. We are proud to be one of Canada’s largest clothing recyclers. Through our Thrift Stores we offer savings on secondhand clothing and household goods while caring for our communities and the planet we share.</p><a href=\"https://www.thriftstore.ca/\" class=\"card-link\">Site</a></div></div>",
+      "tags" : ["TSC", "CHA"]
+    },
+    "Location3:": {
+        "position": {
+          "lat": 43.20910724536185, 
+          "lng": -79.89107126202225
+        },
+        "label": "3",
+        "title": "Talize",
+        "content": "<div class=\"card\" style=\"width: 18rem;\"><div class=\"card-body\"><h5 class=\"card-title\">Talize</h5><h6 class=\"card-subtitle mb-2 text-body-secondary\">Thrift Store Chain</h6><p class=\"card-text\">Extending the life of goods by purchasing second hand, is an important step in shifting our economy away from reckless consumption to a more balanced and cost effective environment.</p><p class=\"card-text\"> At Talize, we aspire to challenge boundaries and make fashion sustainable, unique, and affordable - we recognize the importance of shopping sustainably. There is a major waste dilemma within the fashion industry - and we want to do our part to solve it!</p><a href=\"https://talize.com/\" class=\"card-link\">Site</a></div></div>",
+        "tags" : ["TSC"]
+      },
+      "Location4:": {
+        "position": {
+          "lat": 43.25905009554006,
+          "lng": -79.87696391537655
+        },
+        "label": "4",
+        "title": "Deja Vu Used And New Clothing Accessories",
+        "content": "<div class=\"card\" style=\"width: 18rem;\"><div class=\"card-body\"><h5 class=\"card-title\">Deja Vu Used And New Clothing Accessories</h5><h6 class=\"card-subtitle mb-2 text-body-secondary\">Local Business</h6><p class=\"card-text\">Local thrift shop</p><a href=\"https://www.facebook.com/p/Deja-Vu-New-and-Used-Clothing-100067824289254/\" class=\"card-link\">Facebook</a></div></div>",
+        "tags" : ["LCB"]
+      },
+      "Location5:": {
+        "position": {
+          "lat": 43.212140476231724,
+          "lng": -79.84655332898207
+        },
+        "label": "5",
+        "title": "re-Source Thrift Shop",
+        "content": "<div class=\"card\" style=\"width: 18rem;\"><div class=\"card-body\"><h5 class=\"card-title\">re-Source Thrift Shop</h5><h6 class=\"card-subtitle mb-2 text-body-secondary\">Thrift Store Chain, Non-Profit Org</h6><p class=\"card-text\">The re-Source Thrift Shop is a group of independent thrift stores which were all created and operate in support of Christian Education. The shops are 100% volunteer run, each with it’s own board of directors. In addition to helping fund Christian education, the shops also support several other local charities and ministries.</p><a href=\"https://re-sourcethriftshop.ca/\" class=\"card-link\">Site</a></div></div>",
+        "tags" : ["TSC", "CHA"]
+      },
+      "Location6:": {
+        "position": {
+          "lat": 43.197585839976405,
+          "lng": -79.8700946217761
+        },
+        "label": "6",
+        "title": "Plato's Closet",
+        "content": "<div class=\"card\" style=\"width: 18rem;\"><div class=\"card-body\"><h5 class=\"card-title\">Plato's Closet</h5><h6 class=\"card-subtitle mb-2 text-body-secondary\">Thrift Store Chain</h6><p class=\"card-text\">For most teens, what's new and hot and trendy always commands the most attention. From social media, to music and entertainment, and, of course, fashion. At Winmark®, we've developed the Plato's Closet brand to meet these demands and offer teens and twenty-somethings high-quality, gently used apparel that is stylish, affordable, and very \"now.\"</p><a href=\"https://www.platoscloset.com/home\" class=\"card-link\">Site</a></div></div>",
+        "tags" : ["TSC"]
+      },
+      "Location7:": {
+        "position": {
+          "lat": 43.20386064878973, 
+          "lng": -79.89617180070641
+        },
+        "label": "7",
+        "title": "Once Upon A Child",
+        "content": "<div class=\"card\" style=\"width: 18rem;\"><div class=\"card-body\"><h5 class=\"card-title\">Once Upon A Child</h5><h6 class=\"card-subtitle mb-2 text-body-secondary\">Thrift Store Chain</h6><p class=\"card-text\">Once Upon A Child is the top-rated children’s franchise in North America. We outpace our competition in both average sales and number of franchise locations by a wide margin. We buy and sell gently used kid’s merchandise, serving kids and young families in hundreds of communities across the continent. This is your chance to change your life and make a difference in your community while also joining up with the leader in the resale industry</p><a href=\"https://www.onceuponachild.com/\" class=\"card-link\">Site</a></div></div>",
+        "tags" : ["TSC"]
+      },
+      "Location8:": {
+        "position": {
+          "lat": 43.25561913445982, 
+          "lng": -79.88583542561824
+        },
+        "label": "8",
+        "title": "Magnolia Resale",
+        "content": "<div class=\"card\" style=\"width: 18rem;\"><div class=\"card-body\"><h5 class=\"card-title\">Magnolia Resale</h5><h6 class=\"card-subtitle mb-2 text-body-secondary\">Local Business</h6><p class=\"card-text\">We are Magnolia Resale, your go-to in-person and online shop in Hamilton, ON! Find quality, affordable kids' clothing, shoes, accessories, and toys - a blend of new and preloved treasures.</p><a href=\"https://www.littlelist.ca/listing/magnolia-resale.html\" class=\"card-link\">Site</a></div></div>",
+        "tags" : ["LCB"]
+      },
+      "Location9:": {
+        "position": {
+          "lat": 43.22677108218127, 
+          "lng": -79.83825351087013
+        },
+        "label": "9",
+        "title": "Mission Thrift",
+        "content": "<div class=\"card\" style=\"width: 18rem;\"><div class=\"card-body\"><h5 class=\"card-title\">Mission Thrift</h5><h6 class=\"card-subtitle mb-2 text-body-secondary\">Thrift Store Chain. Non-Profit Org</h6><p class=\"card-text\">There’s something thrilling and uniquely satisfying about walking into a Mission Thrift Store — without any expectations — and finding exactly what you need at a fraction of what you’d pay at retail. And knowing that your purchase helps fund programs that support people in your community and around the world is just icing on the cake!</p><a href=\"https://missionthriftstore.com/\" class=\"card-link\">Site</a></div></div>",
+        "tags" : ["TSC", "CHA"]
+      },
+      "Location10:": {
+        "position": {
+          "lat": 43.25061341856091, 
+          "lng": -79.81300186532282
+        },
+        "label": "10",
+        "title": "The Giving Closet Thrift Shop",
+        "content": "<div class=\"card\" style=\"width: 18rem;\"><div class=\"card-body\"><h5 class=\"card-title\">The Giving Closet Thrift Shop</h5><h6 class=\"card-subtitle mb-2 text-body-secondary\">Local Business. Non-Profit Org</h6><p class=\"card-text\">THRIFT SHOPPING THAT MAKES A DIFFERENCE</p><a href=\"https://thegivingclosetthriftshop.square.site/\" class=\"card-link\">Site</a></div></div>",
+        "tags" : ["LCB", "CHA"]
+      }
+  }
