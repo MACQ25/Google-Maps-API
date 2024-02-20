@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!--
+        StAuth10244: I Mauricio Canul, 000881810 certify that this material is my original work. No other person's work has been used without due acknowledgement. I have not made my work available to anyone else.
+    -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MyThrift</title>
+    <link rel="icon" type="image/x-icon" href="map.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="map.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
@@ -12,18 +16,88 @@
 </script>
 </head>
 <body>
-    <div id="map"></div>
-    <button id="MyPosition">Where am I?</button>
+    <nav class="navbar navbar-dark bg-dark sticky-top w-100">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="hi.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">My Thrift</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Options</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        </nav>
 
-    <div id="filter">
-        <input type="checkbox" id="filter1" class="filterInp" value="TSC">
-        <label for="filter1">Thrift Store Chain</label>
-        <input type="checkbox" id="filter2" class="filterInp" value="LCB">
-        <label for="filter2">Local Business</label>
-        <input type="checkbox" id="filter3" class="filterInp" value="CHA">
-        <label for="filter3">Charity Organization</label>
-    </div>
+    <main class="container-md mt-4">
+        <div class="row gx-5 overflow-hidden">
+            <div id="map" class="col-6 p-2 mx-auto d-block"></div>
 
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtK3_qPPJMw6ny4dq91y1PB5WOpIxdHKE&callback=initMap&loading=async"></script>
+            <div class="col w-50">
+                <div id="filter" class="row p-3 cntlBox">
+                    <h3>Filters</h3>
+                    <div class="form-check">
+                        <label for="filter1" class="form-check-label">Thrift Store Chain</label>
+                        <input type="checkbox" id="filter1" class="filterInp form-check-input" value="TSC">
+                    </div>
+                    <div class="form-check">
+                        <label for="filter2" class="form-check-label">Local Business</label>
+                        <input type="checkbox" id="filter2" class="filterInp form-check-input" value="LCB">
+                    </div>
+                    <div class="form-check">
+                        <label for="filter3" class="form-check-label">Charity Organization</label>
+                        <input type="checkbox" id="filter3" class="filterInp form-check-input" value="CHA">
+                    </div>
+                </div>
+
+                <div class="row p-3 cntlBox">
+                    <h3>User Location</h3>
+                    <div class="col">
+                        <label for="locationFinder" class="form-label">Enter a location</label>
+                        <input id="locationFinder" type="text" id="placeSearch" class="form-control">
+                    </div>
+                    <div class="col">
+                        <button id="MyPosition" type="button" class="btn btn-secondary btnMod">Current Location</button>
+                        <button id="clearBut" type="button" class="btn btn-danger btnMod" onclick="removeUserMarker()">Clear Location</button>
+                    </div>
+                </div>
+    
+                <div class="row p-3 cntlBox">
+                    <h3>Directions</h3>
+                    <label for="placeSel">From you location to:</label>
+                    <div class="container-md row">
+                        <div class="col-10">
+                            <select id="placeSel" class="form-select align-middle" aria-label="Default select example" onchange="directions()">
+                                <option selected value="none">Open this select menu</option>
+                            </select>
+                        </div>
+                        <div class="col-2">
+                            <button id="clearBut" type="button" class="btn btn-warning btnMod align-middle" onclick="clearDirection()">Reset</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtK3_qPPJMw6ny4dq91y1PB5WOpIxdHKE&callback=initMap&loading=async&libraries=places"></script>
+    </main>
+
+    <footer class="fixed-lg-bottom">
+        <p> &copy;	2024, Mauricio Canul, Mohawk College</p>
+        <p>I Mauricio Canul, ID: 000881810, certify that this material is my original work. No other person's work has been used without due acknowledgement. I have not made my work available to anyone else.</p>
+    </footer>
 </body>
 </html>

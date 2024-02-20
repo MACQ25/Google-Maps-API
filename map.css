@@ -1,4 +1,33 @@
+.cntlBox{
+    border: 2px lightslategray solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.btnMod{
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
 #map{
     width: 700px;
     height: 420px;
 }
+
+footer{
+    font-size: small;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: aliceblue;
+}
+
+@media screen and (min-width: 1180px) {
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+  }
+
